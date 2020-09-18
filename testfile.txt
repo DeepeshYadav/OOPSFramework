@@ -1,23 +1,2 @@
 This is Python Selenium Training Session
-testfiletestfiletestfiletestfile
-testfile
-testfile
-testfiletestfile
-testfiletestfile
-testfile
-testfiletestfile
-testfile
-testfile
-testfile
-testfile
-testfile
-testfile
-testfile
-testfile
-testfile
-testfiletestfiletestfiletestfiletestfile
-testfile
-testfile
-testfile
-testfile
-testfile
+Hello I am user2 and modifiying file 
