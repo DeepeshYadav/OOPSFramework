@@ -3,7 +3,18 @@ Hello I am user2 and modifiying file
 
 
 
+
 Ad hoc testing is a commonly used term for software testing performed without 
 planning and documentation, but can be applied to early scientific experimental s
 tudies. The tests are intended to be run only once, unless a defect is discovered.
 Ad hoc
+
+
+During functional testing of software, testers verify the app features against the user specifications. 
+This is completely different from testing done by developers which is unit testing. It checks 
+whether the code works as expected. Because unit testing focuses on the inner structure of 
+the code, it's called the white box testing. On the opposite hand, functional testing checks app’s 
+functionalities without observing the inner structure of the code, hence it's called black box 
+testing. Despite how flawless the different individual code components could also be , it 
+is essential to see that the app is functioning properly, when all components are combined.
+
