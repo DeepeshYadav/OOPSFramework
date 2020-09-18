@@ -1,2 +1,12 @@
 This is Python Selenium Training Session
 Hello I am user2 and modifiying file 
+
+
+
+During functional testing of software, testers verify the app features against the user specifications. 
+This is completely different from testing done by developers which is unit testing. It checks 
+whether the code works as expected. Because unit testing focuses on the inner structure of 
+the code, it's called the white box testing. On the opposite hand, functional testing checks app’s 
+functionalities without observing the inner structure of the code, hence it's called black box 
+testing. Despite how flawless the different individual code components could also be , it 
+is essential to see that the app is functioning properly, when all components are combined.
