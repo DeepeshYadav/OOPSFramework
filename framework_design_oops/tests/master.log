@@ -1,0 +1,30 @@
+2020-09-17 23:02:05,526,526 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:57447/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+2020-09-17 23:02:05,527,527 urllib3.connectionpool DEBUG Starting new HTTP connection (1): 127.0.0.1:57447
+2020-09-17 23:02:08,295,295 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "POST /session HTTP/1.1" 200 719
+2020-09-17 23:02:08,297,297 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2020-09-17 23:02:08,298,298 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:57447/session/0b4f06f445a0b2b24306f93475e548a9/window/maximize {}
+2020-09-17 23:02:10,484,484 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "POST /session/0b4f06f445a0b2b24306f93475e548a9/window/maximize HTTP/1.1" 200 51
+2020-09-17 23:02:10,485,485 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2020-09-17 23:02:10,485,485 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:57447/session/0b4f06f445a0b2b24306f93475e548a9/timeouts {"implicit": 10000}
+2020-09-17 23:02:10,487,487 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "POST /session/0b4f06f445a0b2b24306f93475e548a9/timeouts HTTP/1.1" 200 14
+2020-09-17 23:02:10,488,488 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2020-09-17 23:02:10,488,488 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:57447/session/0b4f06f445a0b2b24306f93475e548a9/url {"url": "https://www.google.co.in"}
+2020-09-17 23:02:11,928,928 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "POST /session/0b4f06f445a0b2b24306f93475e548a9/url HTTP/1.1" 200 14
+2020-09-17 23:02:11,929,929 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2020-09-17 23:02:11,930,930 framework_design_oops.browser_actions.browser_actions DEBUG This the element on which will put new data : ('name', 'q')
+2020-09-17 23:02:11,930,930 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:57447/session/0b4f06f445a0b2b24306f93475e548a9/element {"using": "css selector", "value": "[name=\"q\"]"}
+2020-09-17 23:02:11,941,941 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "POST /session/0b4f06f445a0b2b24306f93475e548a9/element HTTP/1.1" 200 88
+2020-09-17 23:02:11,941,941 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2020-09-17 23:02:11,941,941 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:57447/session/0b4f06f445a0b2b24306f93475e548a9/element/30ae2ff3-1cbf-4efc-91c4-a39c90149f2e/value {"text": "Selenium", "value": ["S", "e", "l", "e", "n", "i", "u", "m"], "id": "30ae2ff3-1cbf-4efc-91c4-a39c90149f2e"}
+2020-09-17 23:02:11,992,992 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "POST /session/0b4f06f445a0b2b24306f93475e548a9/element/30ae2ff3-1cbf-4efc-91c4-a39c90149f2e/value HTTP/1.1" 200 14
+2020-09-17 23:02:11,992,992 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2020-09-17 23:02:11,992,992 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:57447/session/0b4f06f445a0b2b24306f93475e548a9/element {"using": "css selector", "value": "[name=\"btnK\"]"}
+2020-09-17 23:02:11,999,999 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "POST /session/0b4f06f445a0b2b24306f93475e548a9/element HTTP/1.1" 200 88
+2020-09-17 23:02:12,000,0 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2020-09-17 23:02:12,000,0 framework_design_oops.browser_actions.browser_actions DEBUG This the element on which click action would be performed : ('name', 'btnK')
+2020-09-17 23:02:12,000,0 selenium.webdriver.remote.remote_connection DEBUG POST http://127.0.0.1:57447/session/0b4f06f445a0b2b24306f93475e548a9/element/168d9dd7-86d5-44c0-b8bf-ee547f3ec865/click {"id": "168d9dd7-86d5-44c0-b8bf-ee547f3ec865"}
+2020-09-17 23:02:13,854,854 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "POST /session/0b4f06f445a0b2b24306f93475e548a9/element/168d9dd7-86d5-44c0-b8bf-ee547f3ec865/click HTTP/1.1" 200 14
+2020-09-17 23:02:13,854,854 selenium.webdriver.remote.remote_connection DEBUG Finished Request
+2020-09-17 23:02:13,854,854 selenium.webdriver.remote.remote_connection DEBUG DELETE http://127.0.0.1:57447/session/0b4f06f445a0b2b24306f93475e548a9/window {}
+2020-09-17 23:02:18,275,275 urllib3.connectionpool DEBUG http://127.0.0.1:57447 "DELETE /session/0b4f06f445a0b2b24306f93475e548a9/window HTTP/1.1" 200 14
+2020-09-17 23:02:18,276,276 selenium.webdriver.remote.remote_connection DEBUG Finished Request
